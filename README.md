@@ -1,17 +1,28 @@
-This README.md file is displayed on your project page. You should edit this 
-file to describe your project, including instructions for building and 
-running the project, pointers to the license under which you are making the 
-project available, and anything else you think would be useful for others to
-know.
 
-We have created an empty license.txt file for you. Well, actually, it says,
-"<Replace this text with the license you've chosen for your project.>" We 
-recommend you edit this and include text for license terms under which you're
-making your code available. A good resource for open source licenses is the 
-[Open Source Initiative](http://opensource.org/).
+<h2>Introduction</h2> 
+<p><strong>The "Evacuation SMS sender" method saves citizen's life in disaster (e.g. earthquake, fire), <br />informing to every citizen registered their mobile phone number. <br />
+Only using this SMS message, the mobile phone evolves to an great location navigator and help desk caller.</strong></p>
 
-Be sure to update your project's profile with a short description and 
-eye-catching graphic.
 
-Finally, consider defining some sprints and work items in Track & Plan to give 
-interested developers a sense of your cadence and upcoming enhancements.
+
+
+<h2>What it does</h2>
+<p>It sends SMS including evacuation information below <p/>
+<ul>
+<li>Evacuation, AED and Medication location map url </li>
+<li>help desk service phone number</li>
+</ul>
+<p>/*********Message*********/<br />
+Mr. Kotaro Shimada. This a disaster prevention center. Pleaase click the url for Evacuation , AED, Medical service Location, nere your place,<a href="https://www.google.com/maps/d/edit?mid=zx9fAjlt_Ojc.kxQMB4WG81xg&usp=sharing">https://www.google.com/maps/d/edit?mid=zx9fAjlt_Ojc.kxQMB4WG81xg&usp=sharing</a> . If you need help about medication, food supply or difficulty to get back home, Please call +810345402625 for refugee needs center<br />. /**************************/</p>
+
+<p><strong>Unlike other messaging service, there is no need to care of <br />types of mobile phone devices or OS types or versions <br />because of SMS function has been applied to most mobile phone for a long history. <br />So, even elderly person can recognize and use it compared to email or other Social Network Services.</strong></p>
+<p><strong>Also, SMS will show notification popups to mobile devices for recognizing everyone</strong></p>
+
+
+
+
+<h2>How I built it</h2>
+<ul>
+<li>IBM blumix Node-RED starter (Including node.js, cloudant NoSQL Database)</li>
+<li>Twilio (TEL/SMS etc.) API</li>
+</ul>
